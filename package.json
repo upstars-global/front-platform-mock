@@ -8,8 +8,9 @@
     "wrangler": "pnpm dlx wrangler dev",
     "deploy": "pnpm dlx wrangler deploy",
     "login": "pnpm dlx wrangler login",
-    "lint": "eslint . --ext .ts",
-    "lint:fix": "eslint . --ext .ts --fix",
+    "lint:eslint": "eslint .",
+    "lint:prettier": "prettier . --check",
+    "lintfix": "eslint . --fix && prettier --write --list-different .",
     "format": "prettier . --check",
     "format:write": "prettier . --write",
     "typecheck": "tsc -p tsconfig.json --noEmit"
