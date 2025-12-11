@@ -1,6 +1,6 @@
 import { defineEventHandler } from 'h3';
 
-export default defineEventHandler((event) => {
+export default defineEventHandler(() => {
   return {
     payouts: [
       { id: 1, amount: 100, status: 'pending' },
