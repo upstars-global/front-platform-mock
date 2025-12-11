@@ -1,6 +1,6 @@
 import { defineEventHandler } from 'h3';
-import appGlobalConfig from '../../mockData/appGlobalConfig';
+import banners from '../../../../../../mockData/banners';
 
 export default defineEventHandler(() => {
-  return appGlobalConfig;
+  return banners;
 });

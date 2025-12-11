@@ -1,6 +1,6 @@
+import categories from '../../../../../../../mockData/categories';
 import { defineEventHandler } from 'h3';
-import appGlobalConfig from '../../mockData/appGlobalConfig';
 
 export default defineEventHandler(() => {
-  return appGlobalConfig;
+  return categories;
 });
