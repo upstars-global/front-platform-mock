@@ -1,6 +1,4 @@
 export default {
-    data: {
-        supportEmail: "test@test.test",
-        socialLinksDisabled: false,
-    }
-};
+  supportEmail: "test@test.test",
+  socialLinksDisabled: false,
+}

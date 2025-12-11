@@ -5,7 +5,7 @@ export default defineEventHandler((event) => {
   return {
     games: [
       { id: 201, name: "Game X", phase: "final" },
-      { id: 202, name: "Game Y", phase: "qualifier" }
-    ]
+      { id: 202, name: "Game Y", phase: "qualifier" },
+    ],
   }
 })

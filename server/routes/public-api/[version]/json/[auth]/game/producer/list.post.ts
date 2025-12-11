@@ -5,7 +5,7 @@ export default defineEventHandler((event) => {
   return {
     producers: [
       { id: 101, name: "Producer A" },
-      { id: 102, name: "Producer B" }
-    ]
+      { id: 102, name: "Producer B" },
+    ],
   }
 })
