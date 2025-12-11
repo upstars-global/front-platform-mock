@@ -1,6 +1,6 @@
 import { defineEventHandler } from 'h3';
-import levels from '../../../../../../mockData/levels';
+import profile from '../../../mockData/profile';
 
 export default defineEventHandler(() => {
-  return levels;
+  return profile;
 });

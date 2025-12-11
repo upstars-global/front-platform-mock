@@ -1,6 +1,6 @@
 import { defineEventHandler } from 'h3';
-import levels from '../../../../../../mockData/levels';
+import payload from '../../../mockData/payout-gift-count';
 
 export default defineEventHandler(() => {
-  return levels;
+  return payload;
 });
